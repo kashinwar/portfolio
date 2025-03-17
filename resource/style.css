@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(232, 228, 228);
+  }
+  /* section {
+    position: relative;
+  } */
+  .myParagraph {
+
+    position: relative;
+    z-index: 1;
+  }
+  #img1 {
+     
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+  #img1-bg {
+      position: absolute;
+    /* width: 300px; */
+    /* height: 350px; */
+    background-color: brown;
+    max-width: min-content;
+  }
+  .nav2 {
+      /* position: absolute; */
+    text-decoration: none;
+    text-align: center;
+    background-color: #eeaf79;
+    padding: 1%;
+    width: 13.9%;
+    margin-top: 12%;
+    position: fixed;
+    height: 100%;
+  }
+  a,
+  li {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+ 
